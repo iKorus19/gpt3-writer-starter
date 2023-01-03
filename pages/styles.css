@@ -202,7 +202,7 @@ textarea {
     gap: 10px;
     height: min-content;
     overflow: hidden;
-    padding: 15px 150px;
+    padding: 15px 50px;
     position: relative;
     text-decoration: none;
     width: min-content;
@@ -402,6 +402,10 @@ textarea {
     .prompt-box {
         width: 100%;
     }
+    .output{
+        max-width: 100%;
+        border-radius: 25px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -424,10 +428,12 @@ textarea {
 
     .prompt-buttons {
         justify-content: center;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .prompt-container {
-        max-width: 400px;
+        max-width: 80%;
         width: 100%;
     }
 
